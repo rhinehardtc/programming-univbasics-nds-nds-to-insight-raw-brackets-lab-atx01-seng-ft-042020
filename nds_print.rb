@@ -497,7 +497,7 @@ testing = [{:name=>"Stephen Spielberg",
           movie_index = 0
             
           while movie_index < testing[list_index][:movies].length do
-            puts "\t\t #{movie_index + 1} #{testing[list_index][:movies][movie_index][:title]}, which made #{testing[list_index][:movies][movie_index][:worldwide_gross]"
+            puts "\t\t #{movie_index + 1} #{testing[list_index][:movies][movie_index][:title]}, which made #{testing[list_index][:movies][movie_index][:worldwide_gross]}"
             
             movie_index += 1
           end
